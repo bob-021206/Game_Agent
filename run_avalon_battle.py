@@ -27,10 +27,10 @@ from src.games.avalon.extract_demos import number_extract_prompt, player_extract
 from src.utils import create_dir, read_json
 from transformers import AutoModel, AutoTokenizer
 
-api_key = "sk-wvj8voCCFrdoZMu252F9E1F52dA84e56A47c312bD96f3a7d"  #sk-SdjbKZ455Psww0ZoKvSl4as8dKai9i3CUQWikdz4w2QBA4Vq
-base_url = "https://free.v36.cm/v1/"
+api_key = #Please put your API Key here
+base_url = # This should be the related url for API Key
 roles = ["Merlin", "Percival", "Loyal Servant", "Loyal Servant", "Morgana", "Assassin"]
-path = 'G:\Game_Agent\LLM-Game-Agent\multi-qa-mpnet-base-cos-v1'
+path = #Replace this with the local path for multi-qa-mpnet-base-cos-v1 package
 
 
 
