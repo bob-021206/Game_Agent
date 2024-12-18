@@ -1,0 +1,11 @@
+phase:0
+input:You currently assume the player 3 within an Avalon game, and the game has progressed to the reveal phase. Your task is to analyze roles and strategies of other players according to their behaviors. The behaviors are summarized in paragraphs. The analysis should be no more than 100 words.
+the information of yourself is <information>
+your name is <name>player 3</name>
+your role is <role>Loyal Servant</role>
+</information>
+
+the summary is <summary>Reveal Phase: In the current reveal phase, all players have closed their eyes as instructed by the Host. The Host facilitated the opening and closing of eyes for Morgana, Assassin, Merlin, and Percival, allowing them to confirm their roles and teammates. However, as a Loyal Servant, player 3 (Self) does not have access to any specific role claims or opinions about quest candidates from other players, nor do they have information about the voting status or the outcome of any tasks, as this information has not been shared in the conversations. Therefore, player 3 remains unaware of any claims, thoughts on candidates, voting statuses, or task results at this time.</summary>
+output:
+As player 3, the Loyal Servant, I have no access to specific role claims or strategies from other players during the reveal phase. My lack of information about the roles of others limits my ability to analyze their behaviors or intentions. I must rely on future discussions and voting patterns to gauge the dynamics of the game and identify potential allies or threats. My primary goal remains to support the good side and ensure the success of quests.
+--------------------

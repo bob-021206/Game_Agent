@@ -1,0 +1,14 @@
+input:1039 output:67
+input:1113 output:56
+input:1092 output:63
+input:1110 output:24
+input:1044 output:26
+input:1052 output:26
+input:1110 output:46
+input:1049 output:48
+input:1113 output:52
+input:1073 output:23
+input:1033 output:73
+input:1078 output:73
+input:1047 output:28
+input:1194 output:79

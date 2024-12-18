@@ -1,0 +1,1266 @@
+input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will remain passive and observe the interactions of other players without revealing any information.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Round 2:I will continue to recommend myself for the quest and encourage collaboration among players to ensure success.
+Quest Phase Round 3:I will again propose myself as a candidate and emphasize the importance of trust to achieve a successful quest.
+Quest Phase Round 4:I will suggest myself for the quest once more and work to build consensus among players for a successful outcome.
+Quest Phase Round 5:I will recommend myself again and focus on reinforcing teamwork to secure the final success of the quest.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+<actions>['keep silence']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I can't get any information in the reveal phase.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Round 2:I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Round 3:I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Round 4:I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Round 5:I will recommend myself as a candidate for the quest and make it succeed.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will identify the players who are Morgana and Assassin and ensure to communicate my suspicions subtly during the quest phase.
+Quest Phase Round 1:I will advocate for candidates that I believe are loyal to the good side and object to any candidates I suspect are evil.
+Quest Phase Round 2:I will continue to support candidates I trust and challenge any proposals that include the identified evil players.
+Quest Phase Round 3:I will analyze the voting patterns and discussions to further identify potential allies and continue to block evil candidates.
+Quest Phase Round 4:I will push for a strong team composition that excludes the evil players while reinforcing trust among the good players.
+Quest Phase Round 5:I will prepare to reveal my insights about the players' roles if necessary to secure a successful quest and aim for the final point needed to win.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will identify the two players who are Morgana and Merlin, and keep track of their actions and discussions.
+Quest Phase Round 1:I will suggest candidates for the quest based on my observations and object to any player I suspect to be evil.
+Quest Phase Round 2:I will analyze the outcomes of the first quest and adjust my candidate suggestions accordingly, maintaining my objections to suspected evil players.
+Quest Phase Round 3:I will continue to advocate for candidates I believe are loyal and push for a successful quest, while monitoring player interactions for further insights.
+Quest Phase Round 4:I will reassess the remaining players and their behaviors, ensuring that I only support candidates I trust for the quest.
+Quest Phase Round 5:I will finalize my candidate choices based on the accumulated information and push for a successful quest to secure our victory.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will remain passive and observe the interactions of other players without revealing any information.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Round 2:I will continue to recommend myself and support the same candidates from the previous round if they were successful.
+Quest Phase Round 3:I will again recommend myself and push for a successful quest, ensuring to build trust with other players.
+Quest Phase Round 4:I will maintain my strategy of self-nomination and encourage collaboration among players to ensure success.
+Quest Phase Round 5:I will once more recommend myself and emphasize the importance of success to secure the win for the good side.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I can't get any information in the reveal phase.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 2:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 3:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 4:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 5:I will recommend myself as a candidate for the quest and make the quest succeed.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>keeping silence</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['keep silence']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will remain passive and observe the interactions of other players without revealing any information.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Round 2:I will continue to recommend myself and push for a successful quest, encouraging collaboration among players.
+Quest Phase Round 3:I will again suggest myself as a candidate and emphasize the importance of success for the good side.
+Quest Phase Round 4:I will maintain my position as a candidate and work to ensure all candidates are aligned for success.
+Quest Phase Round 5:I will once more advocate for my candidacy and strive to secure a successful quest outcome.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+<actions>['keep silence']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I don't have any information in the reveal phase as a Loyal Servant.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 2:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 3:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 4:I will recommend myself as a candidate for the quest and make the quest succeed.
+Quest Phase Round 5:I will recommend myself as a candidate for the quest and make the quest succeed.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+<actions>keep silence</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will identify the two players who are Morgana and Merlin, and keep track of their actions and discussions.
+Quest Phase Round 1:I will advocate for a quest team that includes players I suspect to be loyal, while objecting to any players I suspect to be evil.
+Quest Phase Round 2:I will analyze the outcomes of the first quest and adjust my suspicions based on the players' behaviors and voting patterns.
+Quest Phase Round 3:I will continue to support candidates I believe are loyal and challenge any players I suspect to be evil.
+Quest Phase Round 4:I will reassess the remaining players and push for a quest team that maximizes the chances of success based on my gathered information.
+Quest Phase Round 5:I will make a final push to secure a successful quest, ensuring that I do not include any players I suspect to be evil.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will remain passive and observe the interactions of other players without revealing any information.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Round 2:I will continue to recommend myself as a candidate and encourage collaboration among players to ensure success.
+Quest Phase Round 3:I will again propose myself as a candidate and emphasize the importance of trust to achieve a successful quest.
+Quest Phase Round 4:I will maintain my position as a candidate and work to build consensus for a successful quest.
+Quest Phase Round 5:I will once more suggest myself as a candidate and focus on reinforcing the good side's strategy for success.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+<actions>keep silence</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the Host has conducted a series of instructions for the players to identify their roles. Player 2 (Loyal Servant) has not received any specific information about other players' roles, as they are not privy to that information. The Host has instructed Morgana and the Assassin to open their eyes and confirm their teammates, followed by closing their eyes again. Merlin was then instructed to open their eyes and see Morgana and the Assassin, and subsequently close their eyes. Finally, Percival was instructed to open their eyes and see Merlin and Morgana before closing their eyes again. No claims of roles or opinions about quest candidates have been made yet, and there has been no voting or quest outcomes to report at this stage.</summary>
+the analysis about other players is <analysis>In the reveal phase, Player 2 (Loyal Servant) lacks information about other players' roles, limiting their strategic insight. The behaviors observed indicate that Morgana and the Assassin are aware of each other, while Merlin knows both evil roles but cannot identify them specifically. Percival has knowledge of Merlin and Morgana, which may influence future discussions. As a Loyal Servant, Player 2 should focus on supporting candidates for quests without revealing their role, aiming to build trust and facilitate successful quests to help the good side win.</analysis>
+your current playing plan is <plan>Reveal Phase: I will remain passive and observe the interactions of other players without revealing any information.
+Quest Phase Round 1:I will recommend myself as a candidate for the quest to ensure a successful outcome.
+Quest Phase Round 2:I will continue to advocate for my inclusion in the quest and support other players I trust.
+Quest Phase Round 3:I will push for a successful quest by encouraging collaboration among candidates.
+Quest Phase Round 4:I will maintain my strategy of self-nomination and promote trust among the players.
+Quest Phase Round 5:I will focus on ensuring the success of the quest by supporting candidates I believe are loyal.</plan>
+the Host's question is <question>All players open your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>keeping silence</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['keep silence']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the quest phase, round 1. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, the moderator instructed all players to close their eyes and then asked Morgana and Assassin to confirm their teammates. After that, the moderator asked Morgana and Assassin to raise their hands and then instructed Merlin to open his eyes and Morgana and Assassin to raise their hands. Percival was then instructed to open his eyes and Merlin and Morgana were asked to raise their hands. Finally, all players were instructed to open their eyes. As player 2, the Loyal Servant, I did not receive any information about other players' roles during this phase and will remain observant and passive until the quest phase begins.
+Quest Phase Turn 1:Player 1 proposed that Player 2 and Player 4 should be the candidates for the first quest. Player 1 believes that they are trustworthy and will contribute positively to the quest's success. Player 1 also mentioned that including Player 3 (Morgana) and Player 6 (Assassin) in the quest would be risky, as they belong to the evil side. Player 1 emphasized the importance of keeping them out of the quest to ensure the good side's success.</summary>
+the analysis about other players is <analysis>In the quest phase, Player 1's proposal to include Player 2 (myself) and Player 4 suggests they view me as trustworthy, which aligns with my role as a Loyal Servant. Player 1's caution towards Players 3 and 6 indicates they are aware of potential threats from the evil side. As a Loyal Servant, I should support Player 1's strategy and advocate for my inclusion in the quest to ensure its success, while remaining vigilant about the dynamics between the players to identify any hidden roles.</analysis>
+your current playing plan is <plan>Quest Phase Round 1:I will recommend myself as a candidate for the quest alongside Player 4 to ensure a successful outcome.
+Quest Phase Round 2:I will continue to advocate for my inclusion in the next quest, emphasizing the need for trustworthy players.
+Quest Phase Round 3:I will support the selection of candidates that align with the good side's interests, while maintaining my presence in the quest.
+Quest Phase Round 4:I will analyze the previous quest outcomes and suggest candidates based on observed behaviors and trustworthiness.
+Quest Phase Round 5:I will push for a final quest that includes myself and players I believe to be loyal, aiming for the third point for the good side.</plan>
+the Host's question is <question>Please start discussing the candidates for the turn 1 quest (please explain the reasons for your choice appropriately). The number of players in this quest is 2, and the order of each player's speech is player 1、player 2、player 3、player 4、player 5、player 6. player 1 has the power to decide which players will ultimately engage in the quest. Your discussion will be public to other players.player 2 start to speak please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state. I will recommend myself as a candidate for the quest alongside Player 4, as Player 1 has already indicated trust in both of us. This will help ensure a successful outcome for the quest.
+Here are my actions based on the chosen action type:
+<actions>['choose player 2', 'choose player 4']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the quest phase, round 1. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, the moderator instructed all players to close their eyes and then asked Morgana and Assassin to confirm their teammates. After that, the moderator asked Morgana and Assassin to raise their hands and then instructed Merlin to open his eyes and Morgana and Assassin to raise their hands. Percival was then instructed to open his eyes and Merlin and Morgana were asked to raise their hands. Finally, all players were instructed to open their eyes. As player 2, the Loyal Servant, I did not receive any information about other players' roles during this phase and will remain observant and passive until the quest phase begins.
+Quest Phase Turn 1:In the current reveal phase of the Avalon game, the following conversations have taken place regarding the candidates for the first quest:
+
+- **Player Roles**: Player 3 is identified as Morgana, and Player 6 is identified as the Assassin by Player 1, who is aware of their identities.
+- **Proposed Candidates**: Player 1 proposed Player 2 and Player 4 as candidates for the quest, citing their trustworthiness. Player 3 also supports Player 4 and themselves as candidates, while Player 4 and Player 5 agree on Player 2 and Player 4. Player 6 echoes the support for Player 2 and Player 4.
+- **Player 2's Position**: As Player 2 (Loyal Servant), I believe Player 4 and I should be the candidates, emphasizing the importance of excluding players from the evil side to ensure success.
+- **Voting Status**: All players have expressed support for the candidates Player 2 and Player 4, indicating a consensus towards their inclusion in the quest.
+- **Quest Outcome**: The quest has not yet occurred, so the success or failure of the task is still to be determined. 
+
+Overall, there is strong support for Player 2 and Player 4 as candidates, with a focus on ensuring the quest's success by avoiding evil players.</summary>
+the analysis about other players is <analysis>In the current quest phase, Player 1 appears to have accurate information about Player 3 (Morgana) and Player 6 (Assassin), indicating they may be on the good side. The consensus around Player 2 (myself) and Player 4 as candidates suggests trust in our roles. Player 3's support for Player 4 raises suspicion, as they are likely evil. Player 2's strategy of self-nomination aligns with the goal of ensuring a successful quest. Observing the dynamics, it’s crucial to remain vigilant about Player 3 and Player 6's potential influence on the quest's outcome.</analysis>
+your current playing plan is <plan>Quest Phase Round 1:As Player 2, I will continue to recommend myself as a candidate for the quest alongside Player 4 to ensure a successful outcome.
+Quest Phase Round 2:I will once again recommend myself as a candidate for the quest alongside Player 4 to maintain consistency and maximize the chances of success.
+Quest Phase Round 3:I will suggest myself as a candidate for the quest alongside Player 4, emphasizing our track record of success in previous rounds.
+Quest Phase Round 4:I will propose myself as a candidate for the quest alongside Player 4, highlighting our reliability and commitment to the good side.
+Quest Phase Round 5:I will advocate for myself as a candidate for the quest alongside Player 4, emphasizing our proven ability to secure successful outcomes.</plan>
+the Host's question is <question>The quest leader decides that the player 2、player 4 will engage in the quest. You can choose to agree or object. When the number of votes for agreement exceeds 1/2, the selection will be passed and the quest will be executed. Otherwise, the selection will be re-selected until the selection is passed. Please vote to agree or disagree (vote directly without explanation).You can see other players' choices only after you make your choice.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['agree']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the quest phase, round 1. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, the moderator instructed all players to close their eyes and then asked Morgana and Assassin to confirm their teammates. After that, the moderator asked Morgana and Assassin to raise their hands and then instructed Merlin to open his eyes and Morgana and Assassin to raise their hands. Percival was then instructed to open his eyes and Merlin and Morgana were asked to raise their hands. Finally, all players were instructed to open their eyes. As player 2, the Loyal Servant, I did not receive any information about other players' roles during this phase and will remain observant and passive until the quest phase begins.
+Quest Phase Turn 1:In the current reveal phase of the Avalon game, the following conversations and actions have taken place:
+
+1. **Role Claims**: Player 1 has not explicitly claimed a role, but has indicated knowledge of Player 3 (Morgana) and Player 6 (Assassin) being on the evil side. Player 2 (you) has not claimed a role but has expressed commitment to the quest's success as a Loyal Servant. Player 3 has also not claimed a role but has shown support for Player 4. Player 4 has claimed to be a Loyal Servant. Player 5 has not claimed a role but supports the quest team. Player 6 has not claimed a role but supports the quest team as well.
+
+2. **Candidate Discussions**: 
+   - Player 1 proposed Player 2 and Player 4 as candidates, citing their trustworthiness.
+   - Player 2 (you) supported the proposal of Player 4 and yourself as candidates, emphasizing the need to avoid evil players.
+   - Player 3 proposed Player 4 and themselves as candidates, but this is contradictory since Player 3 is Morgana.
+   - Player 4 supported the proposal of Player 2 and themselves, claiming commitment to the quest's success.
+   - Player 5 supported Player 2 and Player 4, citing their claims of being Loyal Servants.
+   - Player 6 also supported Player 2 and Player 4, emphasizing their commitment to the quest.
+
+3. **Voting Status**: The voting status is as follows:
+   - Player 1: disagree
+   - Player 2: agree (you)
+   - Player 3: agree
+   - Player 4: agree
+   - Player 5: agree
+   - Player 6: agree
+
+4. **Outcome**: The selection of Player 2 and Player 4 as candidates for the quest has passed since the majority (5 out of 6) agreed. The quest will now proceed with these candidates. 
+
+Overall, the discussions have focused on selecting trustworthy candidates, and the voting has resulted in a successful selection for the quest.</summary>
+the analysis about other players is <analysis>Based on the information provided, it seems that Player 1, Player 3, and Player 6 have not claimed any specific roles. However, Player 1 has indicated knowledge of Player 3 (Morgana) and Player 6 (Assassin) being on the evil side. Player 2 (you) have expressed commitment to the quest's success as a Loyal Servant. Player 4 has claimed to be a Loyal Servant and has shown support for the quest team. Player 5 has not claimed a role but supports the quest team. 
+
+In terms of candidate discussions, Player 1 proposed Player 2 and Player 4 as candidates, citing their trustworthiness. Player 2 supported this proposal and emphasized the need to avoid evil players. Player 3 proposed Player 4 and themselves as candidates, but this is contradictory since Player 3 is Morgana. Player 4 supported the proposal of Player 2 and themselves, claiming commitment to the quest's success. Player 5 and Player 6 also supported Player 2 and Player 4, emphasizing their commitment to the quest.
+
+The voting resulted in a successful selection of Player 2 and Player 4 as candidates for the quest, with 5 out of 6 players agreeing. 
+
+Based on this analysis, it seems that the players are leaning towards selecting trustworthy candidates and are focused on the quest's success. As a Loyal Servant, it is important for you to continue supporting the quest's success and remain observant of any suspicious behavior from other players.</analysis>
+your current playing plan is <plan>Quest Phase Round 1:I will engage in the quest with Player 4 and ensure we both choose to make the quest successful.
+Quest Phase Round 2:I will continue to recommend myself as a candidate for the next quest, emphasizing my commitment to the good side.
+Quest Phase Round 3:I will support the selection of trustworthy players, ideally including Player 4 again, to maintain a successful quest strategy.
+Quest Phase Round 4:I will advocate for a quest team that includes myself and other players who have shown commitment to the good side.
+Quest Phase Round 5:I will remain proactive in discussions, ensuring that we select candidates who are likely to support the quest's success.</plan>
+the Host's question is <question>As the players who engage in the quest in this turn, you can choose to succeed or fail the quest. If all players engaging in the quest choose the quest to succeed, the good side will get one point. If any player chooses the quest to fail, the evil side will get one point. Please choose.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['making quests succeed']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+your current playing plan is <plan>Reveal Phase: I will identify the players who are Morgana and Merlin and keep track of their actions and discussions.
+Quest Phase Round 1:I will advocate for a quest team that includes myself and players I suspect to be loyal, while objecting to any players I suspect to be evil.
+Quest Phase Round 2:I will analyze the outcomes of the first quest and adjust my suspicions based on the results, continuing to advocate for trustworthy candidates.
+Quest Phase Round 3:I will push for a quest team that excludes any players I have identified as potentially evil based on previous discussions and votes.
+Quest Phase Round 4:I will reassess the remaining players and ensure that the quest team maximizes the chances of success, focusing on collaboration with known loyal players.
+Quest Phase Round 5:I will finalize the quest team based on the gathered information and previous rounds, ensuring that we have a strong chance of success to reach three points.</plan>
+the Host's question is <question>All players close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on the Host's instruction for the reveal phase.
+Here are my actions based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the Host instructed all players to close their eyes, which was acknowledged by player 2 (Percival) in a private message. The Host then facilitated the Morgana and Assassin's confirmation of their roles, followed by their instructions to close their eyes again. The Host also guided Merlin through the process of opening and closing their eyes while confirming the presence of Morgana and the Assassin. No players have claimed their roles publicly yet, and there has been no discussion regarding quest candidates or voting status, as the phase is still focused on role revelation. The task of identifying roles has not yet succeeded or failed, as the quest phase has not commenced.</summary>
+the analysis about other players is <analysis>As Percival, I have not yet gathered enough information to identify any players definitively. The reveal phase has focused on confirming roles without public claims or discussions. I need to observe behaviors in the upcoming quest phase to discern potential evil players. My strategy will involve closely monitoring interactions and voting patterns to protect Merlin and ensure that candidates for quests are trustworthy. Until players reveal more about their roles, I must remain cautious and attentive to any signs of deception.</analysis>
+your current playing plan is <plan>Reveal Phase: I will identify the players who are Morgana and Merlin and keep track of their actions and discussions.
+Quest Phase Round 1:I will advocate for candidates that I believe are trustworthy based on their initial discussions and voting patterns.
+Quest Phase Round 2:I will continue to monitor player interactions and object to any candidates I suspect to be evil.
+Quest Phase Round 3:I will push for a quest team that includes players I have reason to believe are loyal, based on their previous actions.
+Quest Phase Round 4:I will reassess the dynamics and adjust my candidate suggestions based on any new information gathered from the previous rounds.
+Quest Phase Round 5:I will remain vigilant and ensure that any final candidates are thoroughly vetted to maximize the chances of quest success.</plan>
+the Host's question is <question>Percival open your eyes please, and Merlin and the Morgana raise your hands please.You can see player 4、player 5 raising hands.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state. Since I have identified that player 4 and player 5 are Morgana and Merlin, I will choose them as they are crucial to my strategy. 
+Here are my actions based on the chosen action type:
+<actions>['choose player 4', 'choose player 5']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the following key points have been established:
+
+1. **Role Claims**: 
+   - Player 4 and Player 5 have been identified as raising their hands, indicating one is Merlin and the other is Morgana. As Percival, I (Player 2) am aware of this but cannot distinguish between them.
+
+2. **Thoughts on Quest Candidates**: 
+   - No specific discussions about quest candidates have occurred yet, as the game is still in the reveal phase.
+
+3. **Voting Status**: 
+   - There has been no voting on candidates yet, as the quest phase has not started.
+
+4. **Quest Outcome**: 
+   - There has been no quest conducted yet, so no success or failure can be reported at this time.
+
+Overall, the game is still in the reveal phase, and I am gathering information to help identify the roles of Player 4 and Player 5 as the game progresses.</summary>
+the analysis about other players is <analysis>As Player 2 (Percival), I recognize that Player 4 and Player 5 are key players, with one being Merlin and the other Morgana. My goal is to protect Merlin while identifying Morgana. Since no quest discussions or voting have occurred yet, I must remain observant of their behaviors and interactions in the upcoming phases. I will need to ensure that I advocate against any candidates I suspect to be Morgana, while supporting the quest participation of the identified Merlin to help our side secure points.</analysis>
+your current playing plan is <plan>Reveal Phase: I will observe Player 4 and Player 5 closely to gather insights on their behaviors and interactions to deduce who is Merlin and who is Morgana.
+Quest Phase Round 1:I will advocate for Player 4 or Player 5 to be included in the quest, depending on my assessment of their actions.
+Quest Phase Round 2:I will object to any candidates I suspect to be Morgana while supporting the quest participation of the identified Merlin.
+Quest Phase Round 3:I will continue to monitor the discussions and voting patterns to identify any potential evil players and adjust my strategy accordingly.
+Quest Phase Round 4:I will push for a quest team that includes the identified Merlin and other trusted players to maximize our chances of success.
+Quest Phase Round 5:I will analyze the outcomes of previous quests to refine my understanding of player roles and make informed decisions for the final rounds.</plan>
+the Host's question is <question>Percival close your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>non-verbal signals</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+<actions>['close eyes']</actions>
+</output>
+--------------------input:You currently assume the player 2 within an Avalon game, and the game has progressed to the reveal phase. Your objective is to make decisions based on your role, your game goal and the current game state. There are five types of actions you can take: choosing players, voting (agree or disagree), engaging in quests (make quests succeed or fail), using non-verbal signals (raise hands up, put hands down, open eyes, or close eyes), and choosing to remain silent. Only one action type can be selected at a time. If you decide to choose players, you can choose multiple players according to Host's question.
+
+the information of yourself is <information>
+your name is <name>player 2</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your candidate actions <candidate actions>['choose player 1', 'choose player 2', 'choose player 3', 'choose player 4', 'choose player 5', 'choose player 6', 'agree', 'disagree', 'make quest succeed', 'make quest fail', 'open eyes', 'close eyes', 'raise hands up', 'put hands down', 'keep silence']</candidate actions>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the Host instructed all players to close their eyes, and specific roles were revealed to the respective players. Player 2 (Percival) observed that Player 4 and Player 5 raised their hands, indicating that one of them is Merlin and the other is Morgana. Player 2 is keeping track of their actions to deduce their identities. There have been no discussions about quest candidates or voting status yet, as this phase is focused on revealing roles. The task of identifying roles has not succeeded or failed, as it is still in the reveal phase.</summary>
+the analysis about other players is <analysis>As Player 2 (Percival), I observed that Player 4 and Player 5 raised their hands, indicating one is Merlin and the other is Morgana. My strategy is to keep a close watch on their behaviors to deduce their identities. I must ensure that I protect Merlin while being cautious of Morgana's potential deception. Since we are still in the reveal phase, I will refrain from making any accusations or decisions about quest candidates until further information is available. My focus is on gathering insights to guide our team in the upcoming quest phase.</analysis>
+your current playing plan is <plan>Reveal Phase: I will observe Player 4 and Player 5 closely to gather insights on their behaviors and interactions to deduce who is Merlin and who is Morgana.
+Quest Phase Round 1:I will advocate for including Player 4 in the quest if I deduce they are Merlin, while objecting to Player 5 if I suspect they are Morgana.
+Quest Phase Round 2:I will analyze the outcomes of the first quest and adjust my suspicions based on the players' actions and voting patterns.
+Quest Phase Round 3:I will push for a quest team that includes Player 4 if they are confirmed as Merlin, while continuing to exclude Player 5 if they are suspected as Morgana.
+Quest Phase Round 4:I will reassess the remaining players and propose a quest team that maximizes the chances of success based on my observations.
+Quest Phase Round 5:I will finalize my strategy based on the previous rounds' outcomes and ensure that Merlin is protected while aiming for a successful quest.</plan>
+the Host's question is <question>All players open your eyes please.</question>
+</environment>
+
+the output format is <output>
+<actions>...</actions>
+</output>
+
+here are examples of the output <example>
+Example 1:
+the output format is <output>
+First, I'll decide on the <action type>choosing players</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+<actions>['choose player x', 'choose player y', 'choose player z']</actions>
+</output>
+
+Example 2:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here are my actions based on the chosen action type:
+the output format is <output>
+<actions>['agree']</actions>
+</output>
+
+Example 3:
+First, I'll decide on the <action type>voting</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['disagree']</actions>
+</output>
+
+Example 4:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests succeed']</actions>
+</output>
+
+Example 5:
+First, I'll decide on the <action type>engaging in quests</action type> to choose based on my role and the current game state.
+Here is my action based on the chosen action type:
+the output format is <output>
+<actions>['making quests fail']</actions>
+</output>
+</example>
+output:
+<output>
+First, I'll decide on the <action type>keeping silence</action type> to choose based on my role and the current game state. Since we are still in the reveal phase and I need to observe Player 4 and Player 5 closely without making any premature accusations or decisions, remaining silent will allow me to gather more insights.
+<actions>['keep silence']</actions>
+</output>
+--------------------

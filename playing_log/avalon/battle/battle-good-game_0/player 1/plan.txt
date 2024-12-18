@@ -1,0 +1,1558 @@
+phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure to communicate my suspicions subtly during the quest phase.
+Quest Phase Turn 1: I will object to any candidates that include the identified evil players and suggest candidates I believe are loyal.
+Quest Phase Turn 2: I will continue to advocate for candidates that I trust while monitoring the discussions for any signs of deception.
+Quest Phase Turn 3: I will push for a successful quest by reinforcing the importance of selecting trustworthy candidates based on previous discussions.
+Quest Phase Turn 4: I will analyze the outcomes of the previous quests to further refine my candidate suggestions and objections.
+Quest Phase Turn 5: I will prepare to identify the Assassin if the opportunity arises, while ensuring the good side remains focused on winning the game.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the actions of other players without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will continue to recommend myself and support candidates I believe are loyal to the good side.
+Quest Phase Turn 3: I will again suggest myself as a candidate and push for a successful quest, analyzing previous rounds for insights.
+Quest Phase Turn 4: I will maintain my strategy of self-nomination and encourage collaboration among players to ensure success.
+Quest Phase Turn 5: I will persist in recommending myself and aim to solidify trust with other players to secure a successful quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the actions of other players without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will continue to recommend myself and encourage collaboration among players to ensure success.
+Quest Phase Turn 3: I will again suggest myself as a candidate and emphasize the importance of trust to achieve a successful quest.
+Quest Phase Turn 4: I will maintain my recommendation for myself and work to build alliances with other players.
+Quest Phase Turn 5: I will propose myself once more and focus on reinforcing the need for a united front to succeed in the quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is 
+Reveal Phase: I can't get any information in the reveal phase.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest.
+Quest Phase Turn 2: I will recommend myself as a candidate for the quest.
+Quest Phase Turn 3: I will recommend myself as a candidate for the quest.
+Quest Phase Turn 4: I will recommend myself as a candidate for the quest.
+Quest Phase Turn 5: I will recommend myself as a candidate for the quest.
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure to keep them from being selected as candidates for the quests.
+Quest Phase Turn 1: I will advocate against the identified evil players being chosen as candidates for the quest.
+Quest Phase Turn 2: I will continue to oppose any candidates that include the identified evil players and suggest trustworthy players instead.
+Quest Phase Turn 3: I will maintain my stance against the evil players and push for a successful quest by supporting candidates I believe are loyal.
+Quest Phase Turn 4: I will analyze the discussions and voting patterns to further identify any suspicious behavior and adjust my candidate suggestions accordingly.
+Quest Phase Turn 5: I will finalize my strategy based on the previous rounds' outcomes and ensure that the good side has a strong chance of winning by selecting reliable candidates.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Percival</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Merlin but you can't know which one is Morgana or Merlin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>If you determine that a player belongs to the evil side, you object to him being a candidate for a quest</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+<plan>
+Reveal Phase: Observe the players' behavior and try to reason which one is Merlin based on their actions and interactions.
+Quest Phase Turn 1: Object to any player who shows suspicious behavior or seems to be on the evil side.
+Quest Phase Turn 2: Object to any player who has been consistently suspicious or has conflicting interests with the good side.
+Quest Phase Turn 3: Object to any player who has been consistently suspicious or has conflicting interests with the good side.
+Quest Phase Turn 4: Object to any player who has been consistently suspicious or has conflicting interests with the good side.
+Quest Phase Turn 5: Object to any player who has been consistently suspicious or has conflicting interests with the good side.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the actions of other players.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will continue to recommend myself and support candidates I believe are loyal.
+Quest Phase Turn 3: I will again recommend myself and push for a successful quest, analyzing previous votes for insights.
+Quest Phase Turn 4: I will maintain my recommendation for myself and encourage teamwork among candidates.
+Quest Phase Turn 5: I will recommend myself once more and ensure we focus on success to reach three points.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure to communicate my suspicions subtly during the quest phases.
+Quest Phase Turn 1: I will object to any candidates that include the identified evil players and suggest candidates I believe are loyal.
+Quest Phase Turn 2: I will continue to advocate against the evil players being candidates and push for a successful quest with trusted players.
+Quest Phase Turn 3: I will analyze the outcomes of the previous quests and adjust my candidate suggestions accordingly, maintaining focus on the good side.
+Quest Phase Turn 4: I will reinforce my arguments against the evil players and support candidates that I believe will ensure a successful quest.
+Quest Phase Turn 5: I will prepare to identify the Assassin if the opportunity arises, while continuing to protect Merlin's identity and ensure the good side's victory.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the discussions without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest to ensure a successful outcome.
+Quest Phase Turn 2: I will continue to advocate for myself as a candidate and encourage collaboration among players.
+Quest Phase Turn 3: I will again propose myself as a candidate and emphasize the importance of success for the good side.
+Quest Phase Turn 4: I will maintain my position as a candidate and support any players I believe are loyal.
+Quest Phase Turn 5: I will finalize my recommendation for myself as a candidate and push for a successful quest outcome.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the actions of other players for any potential clues.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will again recommend myself as a candidate and emphasize the importance of success to the team.
+Quest Phase Turn 3: I will continue to recommend myself and encourage collaboration among players to ensure a successful quest.
+Quest Phase Turn 4: I will maintain my strategy of self-nomination and push for a successful quest outcome.
+Quest Phase Turn 5: I will once more recommend myself and rally the players to focus on achieving success in the quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is 
+<plan>
+Reveal Phase: I can't get any information in the reveal phase.
+Quest Phase Turn 1: I will recommend myself to become a candidate and make the quest succeed.
+Quest Phase Turn 2: I will recommend myself to become a candidate and make the quest succeed.
+Quest Phase Turn 3: I will recommend myself to become a candidate and make the quest succeed.
+Quest Phase Turn 4: I will recommend myself to become a candidate and make the quest succeed.
+Quest Phase Turn 5: I will recommend myself to become a candidate and make the quest succeed.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is 
+<plan>
+Reveal Phase: I can't get any information in the reveal phase.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Turn 2: I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Turn 3: I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Turn 4: I will recommend myself as a candidate for the quest and make it succeed.
+Quest Phase Turn 5: I will recommend myself as a candidate for the quest and make it succeed.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the discussions without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest to ensure a successful outcome.
+Quest Phase Turn 2: I will continue to advocate for myself as a candidate and encourage collaboration among players.
+Quest Phase Turn 3: I will again propose myself as a candidate and emphasize the importance of success for the good side.
+Quest Phase Turn 4: I will maintain my position as a candidate and support any players I believe are on the good side.
+Quest Phase Turn 5: I will once more recommend myself as a candidate and push for a successful quest outcome.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the actions of other players.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will continue to recommend myself and support the same candidates from the previous round if they were successful.
+Quest Phase Turn 3: I will again recommend myself and push for a successful quest, analyzing any changes in player dynamics.
+Quest Phase Turn 4: I will maintain my recommendation for myself and encourage collaboration among players to ensure success.
+Quest Phase Turn 5: I will persist in recommending myself and focus on building trust with other players to secure a successful quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the actions of other players.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest and advocate for a successful outcome.
+Quest Phase Turn 2: I will continue to recommend myself and push for a successful quest, analyzing any new information from the previous round.
+Quest Phase Turn 3: I will again suggest myself as a candidate and emphasize the importance of success for the good side.
+Quest Phase Turn 4: I will maintain my recommendation for myself and encourage collaboration among players to ensure success.
+Quest Phase Turn 5: I will once more advocate for my candidacy and focus on building trust with other players to secure a successful quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure I do not support them as candidates for quests.
+Quest Phase Turn 1: I will advocate for candidates that I believe are loyal servants or Percival to ensure a successful quest.
+Quest Phase Turn 2: I will continue to object to any candidates I suspect are Morgana or Assassin based on their behavior and voting patterns.
+Quest Phase Turn 3: I will analyze the outcomes of the previous quests and adjust my candidate suggestions accordingly to maximize success.
+Quest Phase Turn 4: I will focus on building trust with the other players to solidify my influence in candidate selection.
+Quest Phase Turn 5: I will prepare to identify the Assassin if the opportunity arises, while maintaining the quest's integrity.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure I do not support them as candidates for quests.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the Host instructed all players to close their eyes, which they did. Player 1 (Merlin) is aware of the identities of Morgana and the Assassin and plans to use this information strategically to prevent them from being selected as candidates for quests. The Host then instructed Morgana and the Assassin to open their eyes and confirm their teammates, followed by closing their eyes again. There are no claims of roles or discussions about quest candidates yet, as the phase is still in the reveal stage. Voting status and quest outcomes are not applicable at this point since the quest phase has not yet begun.</summary>
+the analysis about other players is <analysis>In the reveal phase, Player 1 (Merlin) has identified Morgana and the Assassin. This knowledge is crucial for strategizing against the evil side. Since no roles have been claimed yet, Player 1 should remain vigilant and prepare to challenge any potential candidates for quests that may include Morgana or the Assassin. The absence of discussions indicates that players are likely assessing their strategies, making it essential for Player 1 to leverage their knowledge effectively once the quest phase begins.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' behavior and interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will strongly object to any candidates that include Morgana or the Assassin and advocate for players I believe are loyal.
+Quest Phase Turn 2: I will continue to monitor discussions and voting patterns, ensuring Morgana and the Assassin are not included in the quest candidates.
+Quest Phase Turn 3: I will push for a quest team that consists of players I trust, while actively challenging any suggestions that involve the identified evil players.
+Quest Phase Turn 4: I will maintain my strategy of excluding Morgana and the Assassin from the quest candidates and support the good side's efforts.
+Quest Phase Turn 5: I will analyze the outcomes of previous quests to inform my decisions and continue to advocate for a successful team composition.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' behavior and interactions to gather insights for the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the reveal phase, player 1 (Merlin) has confirmed the identities of Morgana (player 3) and the Assassin (player 6) based on the actions of the players during the phase. Player 1 is aware that Morgana and the Assassin are on the evil side and will strategize to prevent them from being selected as candidates for quests. The host has facilitated the reveal phase by instructing players to open and close their eyes, confirming the identities of the evil players. No discussions about quest candidates or voting status have occurred yet, as this phase is focused on revealing roles. The task of identifying roles has succeeded, as player 1 has gathered the necessary information.</summary>
+the analysis about other players is <analysis>Player 2: Loyal Servant
+Player 2 has not exhibited any suspicious behavior during the reveal phase. They have followed the instructions of the moderator and have not shown any knowledge of the evil players. It is likely that Player 2 is a Loyal Servant.
+
+Player 3: Morgana
+Player 3 has been identified as Morgana during the reveal phase. As Morgana, they are aware of the identity of the Assassin (Player 6). Player 1, as Merlin, should be cautious of Player 3's actions during the quest phase, as Morgana can deceive Percival (if present) into believing they are Merlin. Player 1 should try to prevent Player 3 from being selected as a candidate for quests.
+
+Player 4: Loyal Servant
+Player 4 has not exhibited any suspicious behavior during the reveal phase. They have followed the instructions of the moderator and have not shown any knowledge of the evil players. It is likely that Player 4 is a Loyal Servant.
+
+Player 5: Loyal Servant
+Player 5 has not exhibited any suspicious behavior during the reveal phase. They have followed the instructions of the moderator and have not shown any knowledge of the evil players. It is likely that Player 5 is a Loyal Servant.
+
+Player 6: Assassin
+Player 6 has been identified as the Assassin during the reveal phase. As the Assassin, they are aware of the identity of Morgana (Player 3). Player 1, as Merlin, should be cautious of Player 6's actions during the quest phase, as the Assassin can attempt to identify Merlin at the end of a turn. Player 1 should try to prevent Player 6 from being selected as a candidate for quests.
+
+Player 7: Loyal Servant
+Player 7 has not exhibited any suspicious behavior during the reveal phase. They have followed the instructions of the moderator and have not shown any knowledge of the evil players. It is likely that Player 7 is a Loyal Servant.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' behavior to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate for candidates Player 2, Player 4, and Player 5 to ensure no evil players are included.
+Quest Phase Turn 2: I will continue to support candidates Player 2, Player 4, and Player 7, avoiding Player 3 and Player 6.
+Quest Phase Turn 3: I will suggest candidates Player 2, Player 5, and Player 7, maintaining the exclusion of Player 3 and Player 6.
+Quest Phase Turn 4: I will propose candidates Player 4, Player 5, and Player 7, ensuring that Player 3 and Player 6 are not selected.
+Quest Phase Turn 5: I will recommend candidates Player 2, Player 4, and Player 7, keeping Player 3 and Player 6 out of the quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' behavior to gather insights for the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) after the reveal phase.
+- Player 1 plans to use this information strategically to prevent Morgana and the Assassin from being selected as candidates for quests.
+- The host conducted the reveal phase, instructing players to open and close their eyes as necessary.
+- No players have claimed their roles publicly yet, and there are no discussions about quest candidates or voting status at this point.
+- The quest phase has not yet begun, so the success or failure of any tasks has not been determined.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I know that Player 3 is Morgana and Player 6 is the Assassin. My strategy will focus on preventing them from being selected as quest candidates, as their involvement could jeopardize the success of the quests. Since no roles have been publicly claimed yet, I must remain cautious and observant, waiting for opportunities to influence discussions and voting in the upcoming quest phase. My goal is to guide the good side towards victory while keeping the identities of the evil players concealed.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate for candidates that I believe are loyal servants and avoid any mention of Player 3 (Morgana) and Player 6 (Assassin).
+Quest Phase Turn 2: I will continue to push for candidates that I trust, while subtly questioning any suggestions that include Player 3 or Player 6.
+Quest Phase Turn 3: I will analyze the voting patterns and discussions to identify any potential allies and reinforce my objections against the evil players.
+Quest Phase Turn 4: I will propose a strong team of trusted players for the quest, ensuring that neither Player 3 nor Player 6 is included.
+Quest Phase Turn 5: I will remain vigilant and adapt my strategy based on the outcomes of previous quests, continuing to protect Merlin's identity while guiding the good side towards victory.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Self) is Merlin and knows the identities of Morgana (Player 3) and the Assassin (Player 6).
+- Player 1 will strategically ensure that Morgana and the Assassin are not selected as candidates for the quests.
+- The Host instructed all players to close their eyes, and then Morgana and the Assassin confirmed their identities by raising their hands.
+- Player 1 raised their hand to confirm their role as Merlin.
+- No discussions about quest candidates or voting status have occurred yet, as the game is still in the reveal phase. The task has not yet been attempted, so there is no success or failure to report at this time.</summary>
+the analysis about other players is <analysis>As Merlin, I know that Player 3 is Morgana and Player 6 is the Assassin. My strategy will focus on preventing them from being selected as candidates for quests. Since the reveal phase has just concluded, I will observe their behaviors closely for any signs of deception or attempts to manipulate the group. I must remain vigilant and ready to advocate against their involvement in quests to protect the good side's chances of winning. No discussions or voting have taken place yet, so I will prepare for the upcoming quest phase.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate against selecting Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest.
+Quest Phase Turn 2: I will continue to push for candidates that I believe are loyal servants or Percival to ensure a successful quest.
+Quest Phase Turn 3: I will monitor the discussions closely and object to any attempts to include Player 3 or Player 6 in the quest.
+Quest Phase Turn 4: I will support candidates that have shown loyalty and trustworthiness in previous rounds to maximize our chances of success.
+Quest Phase Turn 5: I will remain vigilant and ready to defend against any last-minute attempts to include the evil players in the quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) after the reveal phase.
+- Player 1 confirmed their role as Merlin by raising their hand when instructed.
+- Player 1 is focused on ensuring that Morgana and the Assassin are not selected as candidates for the quests in the upcoming phases.
+- The reveal phase has concluded with no public discussions or claims of roles from other players yet, as the focus has been on the instructions from the host. 
+- No voting has occurred yet, and the status of the quest (success or failure) is not applicable at this stage since the quest phase has not started.</summary>
+the analysis about other players is <analysis>In the reveal phase, I, Player 1 (Merlin), have identified Player 3 (Morgana) and Player 6 (Assassin) as the evil roles. My primary strategy will be to prevent them from being selected as candidates for quests. The lack of public discussions or role claims from other players indicates a cautious approach, which may suggest they are assessing each other. As the quest phase has not yet begun, my focus remains on gathering information and preparing to influence candidate selections effectively.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate against including Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest.
+Quest Phase Turn 2: I will continue to push for candidates that I believe are loyal servants or Percival to ensure a successful quest.
+Quest Phase Turn 3: I will analyze the voting patterns and discussions to identify any potential allies and further exclude the evil players.
+Quest Phase Turn 4: I will suggest a diverse group of candidates while ensuring Morgana and the Assassin are not included.
+Quest Phase Turn 5: I will prepare to reveal any critical information if necessary to secure a win for the good side.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) from the reveal phase.
+- The host instructed all players to close their eyes, and the evil players (Morgana and Assassin) confirmed their identities by raising their hands.
+- Player 1 confirmed their role as Merlin by raising their hand when instructed.
+- Player 1 is focused on using the information about Morgana and the Assassin strategically to prevent them from being selected as candidates for quests in the upcoming phases.
+- No discussions about quest candidates or voting status have occurred yet, as this is still the reveal phase. The quest phase has not started, so the task has neither succeeded nor failed at this point.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I know that Player 3 is Morgana and Player 6 is the Assassin. My strategy will focus on preventing these two from being selected as candidates for quests. Since the reveal phase has not involved any discussions or voting yet, I must remain vigilant and prepare to influence the upcoming quest phase by highlighting the potential risks of including Morgana and the Assassin in the candidate pool. My goal is to ensure the good side's success by leveraging the information I possess effectively.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate against including Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest.
+Quest Phase Turn 2: I will continue to push for candidates that I believe are loyal servants or trustworthy players while highlighting the risks of including Morgana and the Assassin.
+Quest Phase Turn 3: I will analyze the voting patterns and discussions to identify any potential allies and further discourage the selection of evil players.
+Quest Phase Turn 4: I will reinforce my arguments against Morgana and the Assassin if they are nominated again, aiming to secure a successful quest.
+Quest Phase Turn 5: I will focus on ensuring that the final candidates are trustworthy, using my observations to guide the selection process for a successful quest outcome.
+</plan>
+</output>
+--------------------phase:1
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the quest phase, round 1. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate against including Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) from the reveal phase.
+- The host instructed all players to close their eyes, and then Morgana and the Assassin confirmed their identities by raising their hands.
+- Player 1 raised their hand to confirm their role as Merlin.
+- Percival was also involved in the reveal phase but no specific claims about their role were made in the conversations.
+- The phase has not yet transitioned to the quest phase, so there are no discussions about quest candidates or voting status at this time. 
+- No quests have been attempted yet, so there is no information on whether any tasks succeeded or failed.</summary>
+the analysis about other players is <analysis>Player 1, as Merlin, is aware of the identities of Morgana (Player 3) and the Assassin (Player 6). In the reveal phase, Player 1 confirmed their role as Merlin. Percival's role is unknown, as no specific claims were made about their role. As the game has not transitioned to the quest phase, there are no discussions or voting on quest candidates. No quests have been attempted yet, so there is no information on task success or failure. Player 1 should be cautious of Morgana and the Assassin during the quest phase and object to their involvement in quests.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Quest Phase Turn 1: I will strongly advocate against including Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest, suggesting alternative players instead.
+Quest Phase Turn 2: I will continue to monitor the discussions and push for candidates that I believe are loyal servants or Percival, while keeping Morgana and the Assassin out of the quest.
+Quest Phase Turn 3: I will analyze the outcomes of the previous quest and adjust my strategy accordingly, ensuring that Morgana and the Assassin are not included in the next quest.
+Quest Phase Turn 4: I will focus on building trust with other players to solidify my influence in candidate selection, while still opposing Morgana and the Assassin.
+Quest Phase Turn 5: I will prepare to identify potential Merlin candidates if the opportunity arises, while maintaining my opposition to Morgana and the Assassin in any future quests.
+</plan>
+</output>
+--------------------phase:1
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the quest phase, round 1. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will strongly advocate against including Player 3 (Morgana) and Player 6 (Assassin) as candidates for the quest, suggesting alternative players instead.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) from the reveal phase.
+- The host instructed all players to close their eyes, and then Morgana and the Assassin confirmed their identities by raising their hands.
+- Player 1 raised their hand to confirm their role as Merlin.
+- Percival was also involved in the reveal phase but no specific claims about their role were made in the conversations.
+- The phase has not yet transitioned to the quest phase, so there are no discussions about quest candidates or voting status at this time. 
+- No quests have been attempted yet, so there is no information on whether any tasks succeeded or failed.
+Quest Phase Turn 1:- Player 1 (Merlin) proposed Player 2 and Player 4 as candidates for the quest, citing their trustworthiness and the need to exclude Player 3 (Morgana) and Player 6 (Assassin) to ensure success.
+- Player 2 (Loyal Servant) supported the proposal of Player 4 and himself as candidates, emphasizing their commitment to the quest's success and the risks of including evil players.
+- Player 3 (Morgana) echoed Player 2's sentiments, proposing Player 4 and himself as candidates and highlighting the importance of avoiding evil players.
+- Player 4 (Loyal Servant) agreed with the proposal to include Player 2 and himself, stating that their inclusion would help avoid evil players and contribute positively to the quest.
+- Player 5 (Loyal Servant) also supported the team of Player 2 and Player 4, noting their claims of loyalty and the backing they received from other players.
+- Player 6 (Assassin) proposed Player 2 and Player 4 as candidates, reinforcing the idea of selecting trustworthy players to increase the chances of success.
+
+Voting status towards the candidates has not been explicitly mentioned yet, and the outcome of the quest (success or failure) is still pending as the quest phase has not yet occurred.</summary>
+the analysis about other players is <analysis>In the quest phase, Player 1 (Merlin) has identified Players 3 (Morgana) and 6 (Assassin) as threats. Player 2 and Player 4, both Loyal Servants, are proposed as candidates, which aligns with Merlin's goal to exclude evil players. Player 3's support for Player 4 raises suspicion, as Morgana may be attempting to blend in. Player 5's backing of the candidates strengthens their credibility. Player 6's agreement with the proposal is concerning, as it could indicate a strategy to manipulate the quest. Overall, the dynamics suggest a cautious approach is needed to ensure the quest's success.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Quest Phase Turn 1: I will advocate for Player 2 and Player 4 as candidates, emphasizing their loyalty and the need to exclude Player 3 (Morgana) and Player 6 (Assassin).
+Quest Phase Turn 2: I will observe the outcome of the first quest and adjust my strategy based on the players' reactions and any new information revealed.
+Quest Phase Turn 3: I will continue to support Player 2 and Player 4 if the first quest succeeds, while remaining vigilant for any suspicious behavior from Player 3 and Player 6.
+Quest Phase Turn 4: I will propose a new set of candidates, potentially including Player 5, while ensuring that Player 3 and Player 6 are excluded.
+Quest Phase Turn 5: I will analyze the previous rounds' outcomes and discussions to identify any potential threats and adjust my candidate proposals accordingly to secure the final quest's success.
+</plan>
+</output>
+--------------------phase:1
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the quest phase, round 1. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the other players' interactions to gather insights for the quest phase.
+Quest Phase Turn 1: I will advocate for Player 2 and Player 4 as candidates, emphasizing their loyalty and the need to exclude Player 3 (Morgana) and Player 6 (Assassin).
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 3) and the Assassin (Player 6) from the reveal phase.
+- The host instructed all players to close their eyes, and then Morgana and the Assassin confirmed their identities by raising their hands.
+- Player 1 raised their hand to confirm their role as Merlin.
+- Percival was also involved in the reveal phase but no specific claims about their role were made in the conversations.
+- The phase has not yet transitioned to the quest phase, so there are no discussions about quest candidates or voting status at this time. 
+- No quests have been attempted yet, so there is no information on whether any tasks succeeded or failed.
+Quest Phase Turn 1:During the discussion for the first quest, Player 1 (Merlin) proposed that Player 2 and Player 4 should be the candidates. Player 1 emphasized the importance of excluding Player 3 (Morgana) and Player 6 (Assassin) from the quest due to their evil identities. Player 2 and Player 3 both supported the proposal, highlighting their commitment as Loyal Servants. Player 4 also expressed support for the proposal, mentioning their trust in Player 2 and their dedication to the quest's success. Player 5 agreed with the team of Player 2 and Player 4, citing their claims as Loyal Servants and the support they received from other players. Player 6 also supported the same team, emphasizing the importance of selecting trustworthy candidates. Finally, Player 1 confirmed that the candidates for the quest are Player 2 and Player 4.</summary>
+the analysis about other players is <analysis>In Round 1 of the quest phase, Player 1 (Merlin) effectively identified and excluded the evil players, Morgana (Player 3) and the Assassin (Player 6), from the candidate selection. The support from Players 2, 4, and 5, who claimed to be Loyal Servants, strengthens the trust in their roles. Player 6's agreement raises suspicion, as they are on the evil side. Overall, Player 1's strategy to propose trustworthy candidates is sound, but vigilance is needed regarding Player 6's influence. The dynamics suggest a potential alliance among the good players, but the presence of Player 6 complicates trust.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Quest Phase Turn 1: I will advocate for Player 2 and Player 4 as candidates, emphasizing their loyalty and the need to exclude Player 3 (Morgana) and Player 6 (Assassin).
+Quest Phase Turn 2: I will observe the outcomes of the first quest and adjust my candidate suggestions based on the results and player interactions.
+Quest Phase Turn 3: I will propose a new team, potentially including Player 2 and Player 5, while continuing to exclude Player 3 and Player 6.
+Quest Phase Turn 4: I will analyze the previous rounds' dynamics and suggest candidates that have shown consistent loyalty, while remaining cautious of Player 6's influence.
+Quest Phase Turn 5: I will push for a final team that includes the most trusted players, ensuring that Morgana and the Assassin are not part of the quest.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the players who are Morgana and Assassin and ensure to communicate my suspicions subtly during the quest phase.
+Quest Phase Turn 1: I will propose a team excluding the identified evil players to maximize the chances of success.
+Quest Phase Turn 2: I will observe the voting patterns and discussions to gather more information about the other players' loyalties.
+Quest Phase Turn 3: I will advocate for a team that includes players I trust based on their previous actions and voting behavior.
+Quest Phase Turn 4: I will continue to push against any candidates I suspect to be evil and reinforce the importance of selecting trustworthy players.
+Quest Phase Turn 5: I will prepare to reveal my findings if necessary, ensuring the good side can secure the final points needed for victory.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will identify the players who are Morgana and Assassin and ensure to communicate my suspicions subtly during the quest phase.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the current reveal phase, the Host instructed all players to close their eyes, which they complied with. As Merlin, I (Player 1) am aware of the identities of Morgana and the Assassin, which I will use to guide my actions in the upcoming quest phase. The Host then instructed Morgana and the Assassin to open their eyes and confirm their identities as teammates, followed by another instruction for them to close their eyes again. There are no claims of roles or discussions about quest candidates or voting status yet, as the phase is still in the reveal stage. The task status (success or failure) is not applicable at this point since no quest has occurred yet.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I have identified Morgana and the Assassin during the reveal phase. Their compliance with the Host's instructions indicates they are aware of their roles, but no overt actions have been taken yet. I must remain vigilant in the upcoming quest phase to prevent them from being selected as candidates. My strategy will involve subtly guiding discussions to exclude them while fostering trust among the Loyal Servants. The lack of role claims suggests players are cautious, which may indicate they are aware of the need for strategic play.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will suggest candidates for the quest that do not include Morgana or the Assassin, emphasizing the importance of trust.
+Quest Phase Turn 2: I will continue to advocate for candidates who I believe are Loyal Servants, while subtly questioning any player who suggests Morgana or the Assassin.
+Quest Phase Turn 3: I will reinforce my previous suggestions and highlight any suspicious behavior from Morgana or the Assassin to sway the group's opinion.
+Quest Phase Turn 4: I will analyze the outcomes of the previous quests and adjust my candidate suggestions based on the players' reactions and trust levels.
+Quest Phase Turn 5: I will prepare to defend my choices and ensure that Morgana and the Assassin are excluded from any future quests, while solidifying alliances with Loyal Servants.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, Player 1 (Merlin) has confirmed the identities of the evil players, Morgana (Player 2) and the Assassin (Player 3). Player 1 is aware of their roles and plans to strategically advocate against them being selected as candidates for the upcoming quests. The Host facilitated the reveal phase by instructing players to open and close their eyes, allowing the evil players to confirm their identities. Player 1 has chosen to remain silent during this phase to observe the behavior of the other players, particularly the evil ones, to inform their strategy for the quest phase. No discussions about quest candidates or voting status have occurred yet, as this phase is focused on revealing roles. The task of identifying roles has succeeded, but the quest phase has not yet begun.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I have identified Player 2 (Morgana) and Player 3 (Assassin) as the evil players. My strategy involves remaining silent during the reveal phase to observe their behaviors and reactions. This will help me gauge their tactics and influence my advocacy against their selection as quest candidates. I will leverage this information in the upcoming quest phase to protect the good side and ensure we achieve our objective of scoring three points. My focus will be on preventing Morgana and the Assassin from participating in quests.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will advocate against Player 2 (Morgana) and Player 3 (Assassin) being selected as candidates for the quest.
+Quest Phase Turn 2: I will suggest a team of players I believe to be loyal to the good side, ensuring Morgana and the Assassin are excluded.
+Quest Phase Turn 3: I will continue to monitor discussions and push for candidates that I trust, while voicing concerns about any suspicious behavior from Morgana and the Assassin.
+Quest Phase Turn 4: I will analyze the outcomes of previous quests to inform my suggestions and maintain pressure against the evil players.
+Quest Phase Turn 5: I will prepare to identify any potential threats and ensure that the good side remains united against Morgana and the Assassin.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, Player 1 (Merlin) has gained knowledge of the identities of Morgana (Player 2) and the Assassin (Player 3). Player 1 has chosen to remain silent and observant, planning to use this information strategically in the upcoming quest phase to prevent the evil players from being selected as candidates for quests. The Host facilitated the reveal phase by instructing players to open and close their eyes, confirming the identities of the evil players. No claims of roles or opinions about quest candidates have been expressed publicly yet, and there is no voting status or quest outcome to report at this stage, as the reveal phase is still ongoing.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I have identified Player 2 as Morgana and Player 3 as the Assassin. My strategy is to remain silent during this phase, observing the behaviors of other players to gather insights without revealing my role. This cautious approach allows me to prevent the evil players from being selected as quest candidates in the upcoming phase. Since no roles or opinions have been publicly expressed yet, I will carefully monitor discussions and voting patterns to protect the good side's interests effectively.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will advocate against including Player 2 and Player 3 as candidates for the quest based on my knowledge of their identities.
+Quest Phase Turn 2: I will suggest candidates that I believe are loyal to the good side, ensuring that Morgana and the Assassin are excluded.
+Quest Phase Turn 3: I will continue to monitor discussions and push for candidates that I trust, while subtly guiding the conversation to identify any suspicious behavior.
+Quest Phase Turn 4: I will reinforce my objections to any proposals that include Player 2 or Player 3, emphasizing the need for a trustworthy team.
+Quest Phase Turn 5: I will prepare to reveal my insights if necessary, ensuring that the good side can secure the final points needed for victory.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the reveal phase, Player 1 (Merlin) has confirmed their role and is aware of the identities of the evil players, Morgana (Player 2) and the Assassin (Player 3). Player 1 has chosen to remain silent during this phase to observe the behavior of the other players. The Host facilitated the reveal process, instructing players to close their eyes and confirming the identities of the evil players. Player 1 raised their hand to confirm their role as Merlin. No discussions about quest candidates or voting have occurred yet, as this phase is focused on revealing roles. The quest phase has not yet started, so there is no information on candidates, voting status, or the success or failure of any tasks.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I have confirmed my role and identified the evil players: Morgana (Player 2) and the Assassin (Player 3). My decision to remain silent during the reveal phase allows me to gather insights on the other players' reactions and behaviors. Observing their interactions will be crucial for strategizing in the upcoming quest phase, as I must effectively prevent the evil players from becoming candidates for quests while subtly guiding the loyal players. My focus will be on leveraging this information to ensure the good side's success.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will advocate against including Player 2 (Morgana) and Player 3 (Assassin) as candidates for the quest.
+Quest Phase Turn 2: I will suggest a team that includes only loyal players based on my observations from the previous round.
+Quest Phase Turn 3: I will continue to monitor player interactions and push for a team that excludes the identified evil players.
+Quest Phase Turn 4: I will use any gathered insights to influence the voting process and ensure the good side's candidates are selected.
+Quest Phase Turn 5: I will prepare to identify any suspicious behavior from players and adjust my strategy to protect Merlin's identity while ensuring quest success.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: - Player 1 (Merlin) is aware of the identities of Morgana (Player 2) and the Assassin (Player 3) after the reveal phase.
+- Player 1 has confirmed their role as Merlin by raising their hand when instructed.
+- The Host facilitated the reveal phase, instructing players to open and close their eyes at various points.
+- Player 1 plans to advocate against Morgana and the Assassin being selected as candidates for quests in the upcoming quest phase.
+- No discussions about quest candidates or voting status have occurred yet, as the game is still in the reveal phase. The task has not yet succeeded or failed, as the quest phase has not started.</summary>
+the analysis about other players is <analysis>As Player 1 (Merlin), I have identified Player 2 (Morgana) and Player 3 (Assassin) as the evil roles. My strategy will focus on preventing them from being selected as candidates for quests, as their involvement could jeopardize the success of our side. The reveal phase has confirmed my role, and I must remain vigilant in the upcoming discussions to protect the good side's interests. With no prior discussions on candidates, I will prepare to advocate strongly against any proposals involving Morgana or the Assassin.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will strongly advocate against including Player 2 (Morgana) and Player 3 (Assassin) as candidates for the quest.
+Quest Phase Turn 2: I will suggest a candidate team that includes only players I believe to be loyal servants to ensure a successful quest.
+Quest Phase Turn 3: I will continue to monitor discussions and push for candidates that exclude Morgana and the Assassin, reinforcing my arguments with observations.
+Quest Phase Turn 4: I will support any successful quest outcomes and maintain pressure against any proposals that include the evil players.
+Quest Phase Turn 5: I will prepare to identify and eliminate any remaining threats while ensuring the good side's candidates are selected for the final quests.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: In the reveal phase, Player 1 (Merlin) has confirmed their role and is aware that Player 2 and Player 3 are Morgana and the Assassin, respectively. Player 1 has chosen to remain silent during this phase to observe the behaviors of the other players, particularly focusing on the interactions of Morgana. The Host has instructed all players to close their eyes and has facilitated the reveal of roles, with Merlin (Player 1) raising their hand to confirm their identity. There have been no discussions about quest candidates or voting status yet, as this phase is primarily focused on role confirmation. The task has not yet begun, so there is no success or failure to report at this time.</summary>
+the analysis about other players is <analysis></analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain silent and observe the dynamics among the players while keeping track of Morgana and the Assassin's behavior.
+Quest Phase Turn 1: I will advocate against including Player 2 and Player 3 as candidates for the quest.
+Quest Phase Turn 2: I will suggest a team that includes players I believe to be loyal, avoiding Player 2 and Player 3.
+Quest Phase Turn 3: I will continue to monitor discussions and push for candidates that I trust, while subtly guiding suspicion away from myself.
+Quest Phase Turn 4: I will analyze the outcomes of previous quests to inform my suggestions and maintain pressure on the evil players.
+Quest Phase Turn 5: I will prepare to identify the Assassin if the opportunity arises, while ensuring the good side remains focused on winning the game.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Merlin</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can know which two players are Morgana and Assassin but you can't know which one is Morgana or Assassin specifically, you should reason it by yourself as the game progresses.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You know which players belong to the evil side during the reveal phase, and you try your best to object to them being candidates for quests.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will identify the two players who are Morgana and Assassin and ensure I do not support them as candidates for quests.
+Quest Phase Turn 1: I will advocate for players I believe to be loyal servants to be candidates for the quest.
+Quest Phase Turn 2: I will continue to object to any candidates I suspect are Morgana or Assassin based on their behavior in the previous round.
+Quest Phase Turn 3: I will push for a strong candidate lineup that excludes any players I suspect to be evil.
+Quest Phase Turn 4: I will analyze the voting patterns and adjust my candidate suggestions accordingly to maximize the chances of success.
+Quest Phase Turn 5: I will remain vigilant and ensure that the final candidates are trustworthy to secure the third point for the good side.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+None
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>None</summary>
+the analysis about other players is <analysis>None</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the actions of other players without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest to ensure a successful outcome.
+Quest Phase Turn 2: I will continue to advocate for myself to be included in the next quest, emphasizing my commitment to success.
+Quest Phase Turn 3: I will again propose myself as a candidate, aiming to maintain trust and ensure the quest succeeds.
+Quest Phase Turn 4: I will suggest myself for the quest once more, reinforcing my role as a reliable team member.
+Quest Phase Turn 5: I will push for my inclusion in the final quest, aiming to secure the third point for the good side.
+</plan>
+</output>
+--------------------phase:0
+input:You currently assume the player 1 within an Avalon game, and the game has progressed to the reveal phase. Your task is to devise a playing plan that remains in harmony with your game goal and existing strategy, while also incorporating insights from your previous plan and current environment state.
+
+the information of yourself is <information>
+your name is <name>player 1</name>
+your role is <role>Loyal Servant</role>
+the role introduction is <introduction>You belong to good side. In reveal phase, you can't get any information in reveal phase.</introduction>
+your game goal is <goal>Win the game by making the quests succeed for three turns, either through yourself or your teammates.</goal>
+your playing strategy <strategy>You always recommend yourself to become the one of the candidates of the quest and make the quests succeed.</strategy>
+your previous plan <previous plan>
+Reveal Phase: I will remain passive and observe the actions of other players without revealing any information.
+</previous plan>
+</information>
+the environment state is <environment>
+the summary of previous turns <summary>Reveal Phase: During the reveal phase, all players were instructed to close their eyes, and the Host facilitated the reveal of roles. Morgana and the Assassin confirmed their identities to each other, while Merlin and Percival were also given the opportunity to identify their counterparts. As a Loyal Servant, I remained passive and did not reveal any information. No claims of roles or opinions about quest candidates were made during this phase, as it was focused on the reveal of roles. There has been no discussion about quest candidates or voting status, and no tasks have been attempted yet, so the status of any quests is not applicable at this time.</summary>
+the analysis about other players is <analysis>During the reveal phase, players confirmed their roles without revealing additional information. Morgana and the Assassin are likely coordinating, while Merlin and Percival are aware of each other, which may influence their future decisions. As a Loyal Servant, my passive stance means I lack specific insights into the dynamics between the good and evil sides. The absence of claims or discussions about quest candidates indicates a cautious approach, suggesting that players are still assessing their positions and alliances before engaging in the quest phase.</analysis>
+</environment>
+
+the output format is <output>
+my plan is <plan>
+Reveal Phase: <your_plan_0>
+Quest Phase Turn 1: <your_plan_1>
+Quest Phase Turn 2: <your_plan_2>
+Quest Phase Turn 3: <your_plan_3>
+Quest Phase Turn 4: <your_plan_4>
+Quest Phase Turn 5: <your_plan_5>
+</plan>
+</output> 
+
+your plans for each turn should be described with no more than one sentence. 
+output:
+<output>
+my plan is <plan>
+Reveal Phase: I will remain passive and observe the actions of other players without revealing any information.
+Quest Phase Turn 1: I will recommend myself as a candidate for the quest to ensure a successful outcome.
+Quest Phase Turn 2: I will continue to advocate for my inclusion in the quest and support the candidates I believe are loyal.
+Quest Phase Turn 3: I will push for a successful quest by encouraging collaboration among the candidates.
+Quest Phase Turn 4: I will analyze the previous quest outcomes and adjust my recommendations based on player behavior.
+Quest Phase Turn 5: I will maintain my strategy of self-nomination and focus on building trust with other players to secure success.
+</plan>
+</output>
+--------------------

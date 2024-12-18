@@ -1,0 +1,17 @@
+input:1113 output:63
+input:1037 output:23
+input:1103 output:65
+input:1037 output:26
+input:1116 output:50
+input:1039 output:23
+input:1114 output:49
+input:1048 output:26
+input:1085 output:78
+input:1118 output:52
+input:1120 output:23
+input:1121 output:49
+input:1087 output:58
+input:1117 output:62
+input:1082 output:61
+input:1268 output:74
+input:1226 output:40

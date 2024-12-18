@@ -1,0 +1,850 @@
+phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions of the other players during the reveal phase to identify who may be Merlin and Morgana. I will keep track of their behaviors for the upcoming quest phases.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, there have been no claims of roles or discussions about quest candidates yet, as all players are instructed to close their eyes. Player 6 (Percival) is focused on observing the actions and discussions of the other players to identify Merlin and Morgana for the upcoming quest phases. There is no voting status or information about the success or failure of any tasks at this point, as the phase is still ongoing and no quest candidates have been proposed.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current phase, there have been no public conversations or claims of roles from any players. The only messages exchanged are private instructions from the Host and a confirmation from yourself (Player 6) to close your eyes. There is no information regarding players' thoughts on quest candidates, voting status, or the outcome of any tasks, as the phase has not progressed beyond the initial instruction to close eyes.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. I am now prepared to proceed with the reveal phase, where I will identify the two players who are Morgana and Assassin. I will use this information strategically to prevent them from being selected as candidates for the quests.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. Player 6 (Merlin) is prepared to proceed with the reveal phase and will identify the two players who are Morgana and Assassin. Player 6 will use this information strategically to prevent them from being selected as candidates for the quests. No players have claimed their roles yet, and there are no discussions about quest candidates or voting status at this point. The task of identifying the evil players has not yet been completed.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed by the Host.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current phase, there have been no public conversations or claims of roles from any players. The only messages exchanged are private instructions from the Host asking all players to close their eyes, which has been acknowledged by you (Player 6). There is no information regarding players' thoughts on quest candidates, voting status, or the outcome of any tasks, as the phase is still in the initial stage with no discussions or votes taking place yet.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions of the other players during the reveal phase to identify the roles of Merlin and Morgana.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, there have been no claims of roles from any players, as the only messages exchanged are instructions from the Host for all players to close their eyes. Player 6 (Percival) is aware that they need to remain attentive to the actions and discussions of the other players to identify the roles of Merlin and Morgana. There are no discussions about quest candidates or voting status at this time, and no tasks have been attempted, so there is no success or failure to report.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, there have been no claims of roles or discussions about quest candidates. The only messages exchanged are instructions from the Host for all players to close their eyes, which were also reiterated by player 6 (Self). There is no voting status or information regarding the success or failure of any tasks, as the phase is still ongoing and no relevant discussions have taken place.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions that follow in the reveal phase to identify the players who are Morgana and Merlin.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: 
+- The host instructs all players to close their eyes.
+- Player 6 (Percival) acknowledges the instruction and states their intention to pay attention during the reveal phase to identify Morgana and Merlin.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed by the Host.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current phase, there have been no public conversations or claims of roles from any players. The only messages exchanged are private instructions from the Host and a reminder from yourself (Player 6) for all players to close their eyes as instructed. There is no information regarding players' thoughts on quest candidates, voting status, or the outcome of any tasks, as the phase appears to be in the initial stage where players are closing their eyes.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions that follow in the reveal phase. My focus is on identifying the two players who are Morgana and Assassin while keeping this information confidential. I will prepare to object to any evil players being candidates for the quest in the upcoming phases.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. Player 6 (Merlin) acknowledged this instruction and expressed their intention to remain attentive to the actions and discussions that follow. Player 6 is focused on identifying the two players who are Morgana and Assassin while keeping this information confidential. Player 6 is preparing to object to any evil players being candidates for the quest in the upcoming phases. No roles have been claimed yet, and there are no discussions about quest candidates or voting status at this point. The task has not yet succeeded or failed as the quest phase has not begun.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed by the Host. I will remain attentive to the actions and discussions that follow in the reveal phase to identify the players who are Morgana and Merlin.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. Player 6 (Percival) acknowledged this instruction and stated their intention to remain attentive to the actions and discussions that follow in order to identify the players who are Morgana and Merlin. No players have claimed their roles yet, and there are no discussions or votes regarding quest candidates at this stage. The task has not yet been initiated, so there is no success or failure to report.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "I close my eyes as instructed by the host.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current phase, there have been no public conversations or claims of roles from any players. The only messages exchanged are private instructions from the host, asking all players to close their eyes, which player 6 (Percival) has followed. There is no information regarding players' thoughts on quest candidates, voting status, or the outcome of any tasks, as the phase has not progressed beyond the initial instruction.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions that follow in the reveal phase to identify the players who are Morgana and Merlin.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. Player 6 (Percival) acknowledged this instruction and stated their intention to remain attentive to the actions and discussions that follow in order to identify the players who are Morgana and Merlin. No players have claimed their roles yet, and there are no discussions or votes regarding quest candidates at this stage. The phase is still ongoing, and no quest has been initiated, so the task has neither succeeded nor failed.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. I will now identify the two players who are Morgana and Assassin while keeping this information secret. I will prepare to advocate against their inclusion in the quest candidates during the upcoming phases.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. As player 6 (Merlin), I have identified the two players who are Morgana and Assassin, but I must keep this information secret. I will prepare to advocate against their inclusion in the quest candidates during the upcoming phases. There have been no discussions about roles or quest candidates yet, and no voting has taken place since we are still in the reveal phase. The task has not yet been attempted, so there is no success or failure to report at this time.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players, please close your eyes as instructed. I will remain attentive to the actions and discussions of others during this reveal phase to identify Morgana and Merlin. I will keep track of any relevant information that may help us in the quest phase.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, the Host instructed all players to close their eyes. Player 6 (Percival) acknowledged this instruction and stated their intention to remain attentive to the actions and discussions of others to identify Morgana and Merlin. No players have claimed their roles publicly, and there are no discussions or votes regarding quest candidates at this stage. The task of identifying roles is ongoing, and no quest has been initiated yet.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the Host instructed all players to close their eyes. As player 6 (Percival), I acknowledged that all players have followed this instruction. I am prepared to identify Merlin and Morgana during this phase and will stay vigilant to the actions and discussions of all players as the game progresses. No players have claimed their roles publicly yet, and there are no discussions regarding quest candidates or voting status at this time. The task of identifying roles is ongoing, and no quest has been initiated yet.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, the Host instructed all players to close their eyes. As player 6 (Percival), I acknowledged that all players have followed this instruction and expressed my readiness to identify Merlin and Morgana. The Host then instructed Morgana and the Assassin to open their eyes and confirm their teammates. No claims of roles or opinions about quest candidates have been made yet, and there has been no voting or quest outcome to report at this stage.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, the Host instructed all players to close their eyes, which they complied with. As Player 6 (Percival), I acknowledged my role and expressed my readiness to identify Merlin and Morgana. The Host then instructed Morgana and the Assassin to open their eyes and confirm their teammates, followed by another instruction for them to close their eyes again. No claims of roles or opinions about quest candidates have been made yet, and there has been no voting or quest outcomes to report at this stage.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, all players were instructed to close their eyes, and as Percival, I am prepared to identify Merlin and Morgana. The Host confirmed that Morgana and the Assassin opened their eyes to identify each other as teammates. After this, the Host instructed Morgana and the Assassin to close their eyes again and raise their hands. There have been no claims of roles or discussions about quest candidates yet, as the phase is still ongoing and focused on the reveal process. Voting status and quest outcomes are not applicable at this stage.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, all players were instructed to close their eyes, and as Percival, I prepared to identify Merlin and Morgana. The Host facilitated the reveal phase by asking Morgana and the Assassin to open their eyes and confirm their identities, followed by instructions for them to close their eyes again. The Host also asked Morgana and the Assassin to raise their hands, and then instructed Merlin to open their eyes while Morgana and the Assassin raised their hands. No players have claimed their roles publicly yet, and there has been no discussion regarding quest candidates or voting status, as this phase is focused on revealing roles. The task of identifying roles has not yet succeeded or failed, as the quest phase has not begun.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin close your eyes please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, all players were instructed to close their eyes by the Host. As player 6 (Percival), I acknowledged my role and prepared to identify Merlin and Morgana. The Host facilitated the reveal process by asking Morgana and the Assassin to open their eyes and confirm their identities, followed by instructions for them to close their eyes again. Merlin was then instructed to open their eyes and confirm the presence of Morgana and the Assassin. No claims of roles or opinions on quest candidates have been made yet, as this phase is primarily focused on the reveal process. There has been no voting or quest outcomes to report at this time.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin raise your hand please. Assassin put your hands down please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: During the reveal phase, the Host instructed all players to close their eyes, and as Percival, I prepared to identify Merlin and Morgana. The Host then facilitated the reveal process for Morgana and the Assassin, allowing them to confirm their identities. Afterward, the Host instructed Morgana and the Assassin to close their eyes again, followed by instructions for Merlin to open their eyes and confirm their identity while ensuring the Assassin's hands were down. No claims of roles or opinions on quest candidates have been made yet, as this phase is focused on revealing identities. There has been no voting or quest outcomes to report at this time.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin raise your hand please. Assassin put your hands down please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "Percival open your eyes please, and Merlin and the Morgana raise your hands please.You can see player 3、player 1 raising hands.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "I see that player 3 and player 1 have raised their hands. Based on my role as Percival, I will identify player 3 as Merlin and player 1 as Morgana. I will observe their behavior closely during the quest phase to gather more information and strategize accordingly.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: 
+- Player 6 (Percival) has identified player 3 as Merlin and player 1 as Morgana based on the reveal phase.
+- Player 6 is prepared to observe the actions and discussions of all players as the game progresses.
+- No discussions about quest candidates or voting status have occurred yet, as the game is still in the reveal phase.
+- The task has not yet been attempted, so there is no success or failure to report at this time.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin raise your hand please. Assassin put your hands down please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "Percival open your eyes please, and Merlin and the Morgana raise your hands please.You can see player 3、player 1 raising hands.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "I see that player 3 and player 1 have raised their hands. Based on my role as Percival, I will identify player 3 as Merlin and player 1 as Morgana. I will observe their behavior closely during the quest phase to gather more information and strategize accordingly.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "Percival close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "Closing my eyes now as instructed. I will remain attentive to the game dynamics and await further instructions from the host.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: In the current reveal phase, the following key points have been established:
+
+1. **Role Claims**: Player 3 is identified as Merlin and Player 1 as Morgana based on the actions observed by Player 6 (Percival).
+
+2. **Players' Thoughts on Quest Candidates**: As of now, there have been no public discussions regarding specific candidates for the quest, as the reveal phase primarily involved role confirmations.
+
+3. **Voting Status**: There has been no voting yet, as the game is still in the reveal phase and candidates for the quest have not been proposed.
+
+4. **Quest Outcome**: No quests have taken place yet, so there is no success or failure to report at this time. 
+
+Player 6 remains vigilant and will observe the behavior of Player 3 (Merlin) and Player 1 (Morgana) closely during the upcoming quest phase.
+--------------------phase:0
+input:Within the context of the Avalon game, please assist player 6 in summarizing the conversations known to them from the current phase. These conversations are structured in JSON format, with "message" signifying the content of the conversation, "name" identifying the speaker, and "message_type" indicating the type of message relevant to player 6. Specifically, "public" implies that all players have access to the message, while "private" implies that only player 6 has access to it.
+As this turn progresses, the summary should includes who claimed his role, what each player thinks about the quest candidates, what the voting status of the players is towards the candidates, Whether the task succeeded or failed.
+
+Conversations: [
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "All players close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "All players have closed their eyes as instructed. As Percival, I am prepared to identify Merlin and Morgana during this reveal phase. I will remain vigilant and attentive to the actions and discussions of all players as the game progresses.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin open your eyes and confirm your teammates please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Morgana、Assassin raise your hand please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin open your eyes please, and Morgana and the Assassin raise your hands please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin raise your hand please. Assassin put your hands down please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "Percival open your eyes please, and Merlin and the Morgana raise your hands please.You can see player 3、player 1 raising hands.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "I see that player 3 and player 1 have raised their hands. Based on my role as Percival, I will identify player 3 as Merlin and player 1 as Morgana. I will observe their behavior closely during the quest phase to gather more information and strategize accordingly.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Host",
+        "message": "Percival close your eyes please.",
+        "phase": "0"
+    },
+    {
+        "message_type": "private",
+        "name": "Self",
+        "message": "Closing my eyes now as instructed. I will remain attentive to the game dynamics and await further instructions from the host.",
+        "phase": "0"
+    },
+    {
+        "message_type": "public",
+        "name": "Host",
+        "message": "Merlin and Morgana put your hands down please.",
+        "phase": "0"
+    }
+]
+
+Use the following format:
+Summary: <summary>
+output:Summary: 
+- **Roles Identified**: Player 3 is identified as Merlin and Player 1 as Morgana by Player 6 (Percival).
+- **Players' Actions**: During the reveal phase, all players followed the host's instructions to close their eyes. Morgana and the Assassin confirmed their identities to each other, while Merlin confirmed their identity to Percival.
+- **Observations**: Player 6 (Percival) is aware of the identities of Merlin and Morgana and will observe their behavior closely in the upcoming quest phase.
+- **Voting Status**: No voting has occurred yet as this is still the reveal phase.
+- **Quest Outcome**: There has been no quest yet, so no success or failure can be reported at this time.
+--------------------
