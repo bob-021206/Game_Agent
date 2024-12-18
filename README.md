@@ -1,7 +1,7 @@
 # LLM-Game-Agent
-Code for our EMNLP 2024 paper: [LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay](https://arxiv.org/abs/2310.14985)
+Copied from : [LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay](https://arxiv.org/abs/2310.14985)
 
-![Agent Framework](avalon-agent-framework_v6.png)
+!
 
 # Environment
 ```shell
@@ -22,7 +22,7 @@ python run_avalon_battle.py --exp_name battle --camp evil --game_count 10 --star
 ```
 
 # Cite
-If you find our paper useful for your research and applications, please kindly cite using this BibTeX:
+If you find this repo useful for your research and applications, please kindly cite the original author using this BibTeX:
 ```latex
 @misc{lan2023llmbased,
       title={LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay}, 
