@@ -1,7 +1,9 @@
 # LLM-Game-Agent
 Copied from : [LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay](https://arxiv.org/abs/2310.14985)
 
-!
+The multi-qa-mpnet-base-cos-v1 package is added for local transformer models. Please download the pytorch or tensorflow model from the following website: https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-cos-v1
+
+Please change the local model path in the file and use your own ChatGPT-3.5 API KEY before start running the code.
 
 # Environment
 ```shell
