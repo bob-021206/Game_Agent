@@ -30,7 +30,7 @@ from transformers import AutoModel, AutoTokenizer
 api_key = #Please put your API Key here
 base_url = # This should be the related url for API Key
 roles = ["Merlin", "Percival", "Loyal Servant", "Loyal Servant", "Morgana", "Assassin"]
-path = #Replace this with the local path for multi-qa-mpnet-base-cos-v1 package
+path = #Replace this with the local folder path of multi-qa-mpnet-base-cos-v1 package
 
 
 

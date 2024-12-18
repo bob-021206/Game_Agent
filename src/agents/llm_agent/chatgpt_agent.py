@@ -25,7 +25,7 @@ try:
 except AttributeError as e:
     OPENAI_MAX_TOKENS_ERROR = openai.BadRequestError
 
-path = 'G:\Game_Agent\LLM-Game-Agent\multi-qa-mpnet-base-cos-v1'
+path = #Replace this by your local folder path of multi-qa-mpnet-base-cos-v1 package
 
 
 
